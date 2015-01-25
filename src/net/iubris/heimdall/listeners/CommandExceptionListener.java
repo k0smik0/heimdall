@@ -17,6 +17,7 @@ public class CommandExceptionListener implements ExceptionListener {
 
 	@Override
 	public void handleException(Exception e) {
-		console.printf(COMMAND_ERROR, consoleCommand, e.getMessage());
+		console.printf( COMMAND_ERROR, consoleCommand, e.getMessage() );
+		e.printStackTrace();
 	}
 }

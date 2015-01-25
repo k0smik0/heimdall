@@ -14,6 +14,7 @@ public class CommandWithAction {
 	}
 	
 	public Enum<? extends ConsoleCommand> getConsoleCommand() { return consoleCommand; }
+//	public ConsoleCommand getConsoleCommand() { return consoleCommand; }
 
 	public CommandAction getCommandAction() { return commandAction; }
 
